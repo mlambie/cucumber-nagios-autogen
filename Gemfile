@@ -1,3 +1,3 @@
 source "http://rubygems.org"
 
-gem "slop"
+gem "slop", "~>3.2.0"
