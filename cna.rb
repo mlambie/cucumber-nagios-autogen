@@ -51,7 +51,7 @@ begin
       nsvcf.write "}\n\n"
     end
   ensure
-    cnf.close unless cnf.nil?
+    [cnf, ncmdf, nsvcf].each { |file| file.close unless file.nil? }
   end
 rescue Exception => e
   abort "ERROR: #{e}"
