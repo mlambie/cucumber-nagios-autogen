@@ -3,7 +3,7 @@ GEM
   specs:
     amqp (0.6.7)
       eventmachine (>= 0.12.4)
-    backports (3.15.0)
+    backports (3.17.0)
     builder (3.2.4)
     bundler08 (0.8.5)
     cucumber (3.1.2)
@@ -40,9 +40,9 @@ GEM
     multi_json (1.14.1)
     multi_test (0.1.2)
     net-ssh (2.0.18)
-    nokogiri (1.10.7)
+    nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    rack (2.0.8)
+    rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rake (13.0.1)
@@ -55,7 +55,7 @@ GEM
     rspec-expectations (3.9.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
-    rspec-mocks (3.9.0)
+    rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
@@ -77,4 +77,4 @@ DEPENDENCIES
   slop (~> 3.2.0)
 
 BUNDLED WITH
-   2.0.1
+   2.1.4
