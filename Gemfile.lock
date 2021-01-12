@@ -36,12 +36,14 @@ GEM
     extlib (0.9.16)
     gherkin (5.1.0)
     highline (2.0.3)
-    mini_portile2 (2.4.0)
+    mini_portile2 (2.5.0)
     multi_json (1.14.1)
     multi_test (0.1.2)
     net-ssh (2.0.18)
-    nokogiri (1.10.9)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    racc (1.5.2)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -74,6 +76,7 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber-nagios
+  nokogiri (~> 1.11.0.rc4)
   slop (~> 3.2.0)
 
 BUNDLED WITH
